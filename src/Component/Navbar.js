@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './component.css'; // Ensure this imports your CSS file
+import './component.css';
 import VisitCounter from './visitCounter'
 
 const Navbar = () => {
@@ -15,7 +15,6 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'}`}>
             <a className="navbar-brand" href="#">
-                {/* Replace 'Logo' with your actual logo */}
                 <span>NewsShorts</span>
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -8,13 +8,13 @@ export class Card extends Component {
                     className="card-img-top"
                     src="https://via.placeholder.com/300x200"
                     alt="Card image cap"
-                    style={{ objectFit: 'cover', height: '150px' }} // Uniform image styling
+                    style={{ objectFit: 'cover', height: '150px' }}
                 />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p className="card-text">
                         Some quick example text to build on the card title and make up the bulk of the card's content...
-                        <a href="/details" className="card-link">Read more</a> {/* Redirect to a new page */}
+                        <a href="/details" className="card-link">Read more</a>
                     </p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
-// src/News.js
+
 import React, { Component } from 'react';
 import NewsItem from './NewsItem';
-import Spinner from './Spinner'; // Import the spinner component
+import Spinner from './Spinner';
 import './component.css';
 import PropTypes from 'prop-types';
 
@@ -14,7 +14,7 @@ export class News extends Component {
             currentPage: 1,
             totalPages: 1,
             error: null,
-            darkMode: false, // Track dark mode state
+            darkMode: false,
         };
     }
 
@@ -23,20 +23,24 @@ export class News extends Component {
     }
 
     fetchArticles = async (page = 1) => {
-        this.setState({ loading: true, error: null }); // Set loading to true before fetching
+        this.setState({ loading: true, error: null });
         const pageSize = this.props.pageSize || 10;
-        const country = this.props.country || "in";
-        const apiKey = process.env.REACT_APP_API_KEY; // Access API key from environment variable
-        const url = `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${apiKey}&pageSize=${pageSize}&page=${page}`;
+        // const country = this.props.country || "in";
+        const apiKey = process.env.REACT_APP_API_KEY;
+        const randomParam = Math.random();
+        const url = `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${apiKey}&pageSize=${pageSize}&page=${page}&_=${randomParam}`;
 
-        // console.log('API Key:', process.env.REACT_APP_API_KEY);
+
+
 
 
         try {
             const response = await fetch(url);
             if (!response.ok) {
+
                 throw new Error('Network response was not ok');
             }
+            console.log(response);
             const data = await response.json();
             this.setState({
                 articles: data.articles,

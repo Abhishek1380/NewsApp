@@ -16,9 +16,9 @@ export class NewsItem extends Component {
             <div className="card custom-card" style={{ width: '18rem' }}>
                 <img
                     className="card-img-top"
-                    src={imageUrl || "https://via.placeholder.com/300x200"} // Use placeholder if imageUrl is null
+                    src={imageUrl || "https://via.placeholder.com/300x200"}
                     alt="Card image cap"
-                    style={{ objectFit: 'cover', height: '150px' }} // Make images uniform in size
+                    style={{ objectFit: 'cover', height: '150px' }}
                 />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>

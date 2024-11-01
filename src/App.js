@@ -1,7 +1,7 @@
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Analytics from './Analytics';
 // import VisitCounter from './Component/visitCounter';
 
@@ -19,7 +19,7 @@ export default class App extends Component {
         <Navbar />
         <Analytics />
         {/* <VisitCounter /> */}
-        <News pageSize={59} page={3} />
+        <News pageSize={9} page={1} />
       </div>
     )
   }

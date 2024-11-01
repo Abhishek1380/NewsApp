@@ -5,9 +5,8 @@ const VisitCounter = () => {
     const [visitCount, setVisitCount] = useState(0);
 
     useEffect(() => {
-        // Retrieve and increment visit count from localStorage
         const count = parseInt(localStorage.getItem('visitCount') || '0', 10);
-        const newCount = count + 1;
+        const newCount = (count + 2);
         localStorage.setItem('visitCount', newCount);
         setVisitCount(newCount);
     }, []);

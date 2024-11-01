@@ -1,9 +1,8 @@
-// src/Analytics.js
 import { useEffect } from 'react';
 
 const Analytics = () => {
     useEffect(() => {
-        // Replace 'YOUR_TRACKING_ID' with your actual tracking ID
+
         const script = document.createElement('script');
         script.src = `https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID`;
         script.async = true;
