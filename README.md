@@ -8,26 +8,22 @@ This project is a simple, responsive React-based news application that fetches n
 - **Responsive Design**: Optimized for all screen sizes, including mobile.
 - **Minimal UI**: Focused on readability and ease of use.
 
-## Screenshots
+## Project Photos
 
 ### Home Page
-![Screenshot (745)](https://github.com/user-attachments/assets/9fb48f2e-e575-42cb-a138-c78408bf2a67)
+<img src="https://github.com/user-attachments/assets/9fb48f2e-e575-42cb-a138-c78408bf2a67" alt="Home Page" width="600"/>
 
+### Light and Dark Mode + Total Site Views
+<img src="https://github.com/user-attachments/assets/768de056-a874-45c8-bde6-3e4fcc94236a" alt="Light and Dark Mode" width="600"/>
 
-### Light and Dark Mode + Total site views
-![Screenshot (752)](https://github.com/user-attachments/assets/768de056-a874-45c8-bde6-3e4fcc94236a)
+### Pagination
+<img src="https://github.com/user-attachments/assets/19974767-685b-4b5a-8ffc-f9e03d62ad70" alt="Pagination" width="600"/>
 
-
-### Pagination 
-![Screenshot (748)](https://github.com/user-attachments/assets/19974767-685b-4b5a-8ffc-f9e03d62ad70)
-
-### Mobile view (Responsiveness)
-![Screenshot (751)](https://github.com/user-attachments/assets/21105d31-3bb8-4817-af18-3d53fce02767)
-
+### Mobile View (Responsiveness)
+<img src="https://github.com/user-attachments/assets/21105d31-3bb8-4817-af18-3d53fce02767" alt="Mobile View" width="400"/>
 
 
 
-*Replace `path/to/...` with the actual file paths of the images.*
 
 ## Installation
 
